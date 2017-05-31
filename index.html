@@ -1,0 +1,52 @@
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Records with Local Storage</title>
+ <link rel="stylesheet" href="styles/Input.css">
+  </head>
+  <body>
+
+    <h1>Records</h1>
+
+    <div id="table-page">
+      <button type="button" id="new-person">Add New Person</button>
+
+      <table border="1">
+        <thead>
+          <tr>
+            <th>
+              Name
+            </th>
+            <th>
+              Age
+            </th>
+            <th>
+              <!--Actions-->
+            </th>
+          </tr>
+        </thead>
+        <tbody id="people">
+        </tbody>
+      </table>
+    </div>
+
+
+    <div id="form-page" style="display:none">
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+        <br />
+        <label for="age">Age</label>
+        <input type="number" id="age" />
+        <br />
+        <button type="submit" id="submit">Submit</button>
+        <button type="button" id="cancel">Cancel</button>
+      </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="  crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

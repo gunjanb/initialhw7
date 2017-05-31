@@ -1,0 +1,23 @@
+input ,label {
+display: block;
+}
+
+label {
+    margin-bottom: 20px;
+}
+#new-person {
+  margin-bottom: 50px;
+}
+
+
+#form-page{
+  display:none;
+}
+
+#submit , #cancel {
+  display :inline;
+}
+
+#table-page{
+  display: none;
+}
